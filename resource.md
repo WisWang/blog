@@ -8,6 +8,9 @@
 
 [gitops ](https://www.weave.works/technologies/gitops/)
 
+[救火必备！问题排查与系统优化手册](https://mp.weixin.qq.com/s/AYf-sUv2StODBx-10_K0Sg)
+
+[原则中关于会议的讨论](https://www.taohui.pub/2018/10/21/生活感悟/如何高效的主持会议/)
 
 ### C4 model
 
