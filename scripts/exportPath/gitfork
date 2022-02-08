@@ -1,0 +1,21 @@
+#!/bin/zsh
+alias git=hub
+
+if [ -z "$1" ]
+then
+echo "usage: $(basename $0) fork_url"
+else
+end_string=$(basename $1)
+dir=${end_string%.git}
+
+git clone $1
+
+cd $dir
+pwd
+
+git fork --remote-name origin
+
+fi
+
+
+
