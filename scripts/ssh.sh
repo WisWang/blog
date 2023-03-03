@@ -1,6 +1,6 @@
 #!/usr/bin/expect
-spawn ssh -p2222 wis.w@ssh.aekbeucw.com
-expect "]: "
-send "338186\n"
+spawn ssh relay
+expect "Verification code: "
+send "413411\n"
 interact
 

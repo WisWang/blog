@@ -1,6 +1,6 @@
 #!/bin/bash
 cd $(dirname $0)
-auth=$(python3 /Users/user/PycharmProjects/new_py3/jumpsever27/google_auth2.py)
+auth=$(python3 /Users/wanghongzhi/PycharmProjects/new_py3/twofactor/relay.py)
 echo $auth
 pwd
 sed -i "" 's/send.*/send "'$auth'\\n"/g' ssh.sh

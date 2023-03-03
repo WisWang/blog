@@ -1,0 +1,6 @@
+#!/bin/zsh
+alias git=hub
+
+
+# which git && git remote -v && which git
+git fetch upstream master && git rebase upstream/master && git push -u origin $( git rev-parse --abbrev-ref HEAD) -f && git pull-request --no-edit

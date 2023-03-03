@@ -1,0 +1,7 @@
+#!/bin/zsh
+
+git branch |egrep -v 'master|main|\*' |while read branch
+do
+echo $branch
+git branch -d $branch
+done

@@ -13,7 +13,7 @@ git clone $1
 cd $dir
 pwd
 
-# glab repo fork --remote 
+glab repo fork --remote 
 
 fi
 

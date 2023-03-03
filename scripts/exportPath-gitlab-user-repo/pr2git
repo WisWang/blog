@@ -1,0 +1,7 @@
+#!/bin/zsh
+
+branch=${1:-"master"}
+
+echo $branch
+# which git && git remote -v && which git
+git fetch upstream $branch && git rebase upstream/$branch && git push --set-upstream origin $( git rev-parse --abbrev-ref HEAD) -f && glab mr create --no-editor -f -y

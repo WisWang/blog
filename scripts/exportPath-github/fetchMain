@@ -2,14 +2,11 @@
 
 branch=wis-$(date +%s)
 
-
 if [ -n "$1" ]
 then
 branch=$1
 fi
 echo "branch is: "$branch
 
-git fetch origin $(git branch |egrep -o 'master|main'):$branch
+git fetch upstream main:$branch
 git checkout $branch
-
-

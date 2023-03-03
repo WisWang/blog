@@ -6,6 +6,7 @@
 # custom
 .idea/
 .DS_Store
+.vscode/
 
 
 # User-specific files
